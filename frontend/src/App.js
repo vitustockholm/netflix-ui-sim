@@ -1,11 +1,13 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import { Navbar, Nav, Container } from 'react-bootstrap';
+//components
+import HomePage from './pages/HomePage';
 
 function App() {
   return (
     <>
+      <HomePage />
+      {/* Contains Navigation inside */}
       <Router>
-        <div> Netflix simulation</div>
         <Switch>
           <Route path='/a' />
           <Route path='/b' />
