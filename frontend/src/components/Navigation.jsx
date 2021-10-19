@@ -1,40 +1,37 @@
 import React from 'react';
-import {
-  Navbar,
-  Nav,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-} from 'react-bootstrap';
+import '../index.css';
 
 const Navigation = () => {
   return (
     <>
-      <Navbar bg='light' expand='lg'>
-        <Navbar.Brand href='/' className='logo'>
-          finsweet
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls='navbarScroll' />
+      <div className='navbar'>
+        <div className='logo'>finsweet</div>
+      </div>
+      <div className='navbar-right'>
+        <a href='/' className='body2'>
+          Home
+        </a>
 
-        <Nav className='mr-auto my-2 my-lg-0' style={{ maxHeight: '100px' }}>
-          <Nav.Link href='#action1' className='link'>
-            a
-          </Nav.Link>
-          <Nav.Link href='#action2' className='link'>
-            s us
-          </Nav.Link>
-          <Nav.Link href='#action2' className='link'>
-            c
-          </Nav.Link>
-          <Nav.Link href='#action2' className='link'>
-            d
-          </Nav.Link>
-          <Nav.Link href='/' className='link'>
-            e
-          </Nav.Link>
-        </Nav>
-      </Navbar>
+        <a href='/' className='body2'>
+          About us
+        </a>
+
+        <a href='/' className='body2'>
+          Services
+        </a>
+
+        <a href='/' className='body2'>
+          Blog
+        </a>
+
+        <a href='/' className='body2'>
+          Contact
+        </a>
+        <div className='line'></div>
+        <div className='call'></div>
+        <p>Road Assistance</p>
+        <a href='/call'>180026525452</a>
+      </div>
     </>
   );
 };

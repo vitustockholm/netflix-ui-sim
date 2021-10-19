@@ -1,0 +1,457 @@
+/* Header */
+
+position: absolute;
+width: 1300px;
+height: 632px;
+left: 320px;
+top: 170px;
+
+
+
+/* Header Image */
+
+position: absolute;
+width: 655px;
+height: 632px;
+left: 965px;
+top: 170px;
+
+
+
+/* Image */
+
+position: absolute;
+width: 605px;
+height: 632px;
+left: 995px;
+top: 170px;
+
+
+
+/* Image */
+
+position: absolute;
+width: 605px;
+height: 632px;
+left: 995px;
+top: 170px;
+
+background: url(image.png);
+
+
+/* Service */
+
+position: absolute;
+width: 282px;
+height: 102px;
+left: 965px;
+top: 251px;
+
+
+
+/* BG */
+
+position: absolute;
+width: 281.64px;
+height: 102px;
+left: 965px;
+top: 251px;
+
+background: linear-gradient(138.85deg, #FFFFFF -38.72%, #FFFFFF 153.95%);
+border: 12px solid rgba(225, 225, 225, 0.43);
+box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
+border-radius: 59px;
+
+
+/* Quick service */
+
+position: absolute;
+width: 184px;
+height: 36px;
+left: 1063px;
+top: 282px;
+
+/* Title 02 */
+font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+letter-spacing: -0.03em;
+
+/* Black */
+color: #1E1B1B;
+
+
+
+/* Circle */
+
+position: absolute;
+width: 69.66px;
+height: 70px;
+left: 978.93px;
+top: 266px;
+
+
+
+/* BG */
+
+position: absolute;
+width: 69.66px;
+height: 70px;
+left: 978.93px;
+top: 266px;
+
+background: #5CBA99;
+
+
+/* hr */
+
+position: absolute;
+width: 16.92px;
+height: 28px;
+left: 1022.72px;
+top: 289px;
+
+/* Body 02 */
+font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 28px;
+/* identical to box height, or 175% */
+
+color: #FFFFFF;
+
+
+
+/* 24 */
+
+position: absolute;
+width: 27.86px;
+height: 36px;
+left: 991.87px;
+top: 283px;
+
+/* Title 02 */
+font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+
+
+
+/* Rating */
+
+position: absolute;
+width: 326px;
+height: 102px;
+left: 1294px;
+top: 630px;
+
+
+
+/* BG */
+
+position: absolute;
+width: 326px;
+height: 102px;
+left: 1294px;
+top: 630px;
+
+background: #FFFFFF;
+border: 12px solid rgba(225, 225, 225, 0.43);
+box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
+border-radius: 59px;
+
+
+/* Stars */
+
+position: absolute;
+width: 185px;
+height: 36px;
+left: 1403px;
+top: 663px;
+
+
+
+/* Star 1 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 1403px;
+top: 663px;
+
+background: #FFB648;
+border-radius: 3px;
+
+
+/* Star 2 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 1441px;
+top: 663px;
+
+background: #FFB648;
+border-radius: 3px;
+
+
+/* Star 3 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 1478px;
+top: 663px;
+
+background: #FFB648;
+border-radius: 3px;
+
+
+/* Star 4 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 1516px;
+top: 663px;
+
+background: #FFB648;
+border-radius: 3px;
+
+
+/* Star 5 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 1552px;
+top: 663px;
+
+background: #D7D1C7;
+border-radius: 3px;
+
+
+/* Star 5 Yellow */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 1552px;
+top: 663px;
+
+
+
+/* Star 5 */
+
+position: absolute;
+width: 36px;
+height: 36px;
+left: 1552px;
+top: 663px;
+
+background: #D7D1C7;
+border-radius: 3px;
+
+
+/* Rectangle 1308 */
+
+position: absolute;
+width: 16px;
+height: 43px;
+left: 1569px;
+top: 701px;
+
+background: #FFB648;
+transform: rotate(-180deg);
+
+
+/* Rating */
+
+position: absolute;
+width: 50px;
+height: 24px;
+left: 1333px;
+top: 684px;
+
+/* Caption */
+font-family: Manrope;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+color: #000000;
+
+opacity: 0.7;
+
+
+/* 4.5/5 */
+
+position: absolute;
+width: 56px;
+height: 36px;
+left: 1332px;
+top: 654px;
+
+/* Title 02 */
+font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+letter-spacing: -0.03em;
+
+color: #000000;
+
+
+
+/* Header Text */
+
+position: absolute;
+width: 624px;
+height: 452px;
+left: 320px;
+top: 252px;
+
+
+
+/* Open */
+
+position: absolute;
+width: 374.98px;
+height: 56px;
+left: 321.02px;
+top: 648px;
+
+
+
+/* Monday to Friday 9:00 AM to 10:00 AM */
+
+position: absolute;
+width: 331px;
+height: 32px;
+right: 1224px;
+top: 672px;
+
+/* Body (01) */
+font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 175%;
+/* identical to box height, or 31px */
+
+/* Black */
+color: #1E1B1B;
+
+
+
+/* We are open */
+
+position: absolute;
+width: 93px;
+height: 24px;
+right: 1462px;
+top: 648px;
+
+/* Caption */
+font-family: Manrope;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* Grey */
+color: #939191;
+
+
+
+/* Icon */
+
+position: absolute;
+left: 16.72%;
+right: 81.67%;
+top: 8.5%;
+bottom: 91.1%;
+
+/* Steelgrey */
+background: #E2E6E9;
+
+
+/* Button */
+
+/* Auto Layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 40px;
+
+position: absolute;
+left: 16.67%;
+right: 72.76%;
+top: 6.9%;
+bottom: 92.27%;
+
+/* Primary */
+background: #FF6433;
+border-radius: 12px;
+
+
+/*  Button Text */
+
+position: static;
+left: 19.7%;
+right: 19.7%;
+top: 25%;
+bottom: 25%;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 175%;
+/* identical to box height, or 31px */
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+
+
+/* Get your vehicle service done online at one place */
+
+position: absolute;
+width: 624px;
+height: 252px;
+right: 976px;
+top: 252px;
+
+/* Heading (h1) */
+font-family: Manrope;
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 84px;
+/* or 131% */
+letter-spacing: -0.03em;
+
+/* Black */
+color: #1E1B1B;
+
