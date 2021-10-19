@@ -11,3 +11,217 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ////////////////// */
+
+/* Footer */
+
+.footer {
+  position: absolute;
+  width: 1920px;
+  height: 706px;
+  left: 0px;
+  top: 7060px;
+}
+
+/* FAQ */
+
+.faq {
+  position: absolute;
+  width: 1924px;
+  height: 1140px;
+  left: -2px;
+  top: 5920px;
+}
+
+/* Testimonials */
+
+.testimonials {
+  position: absolute;
+  width: 1922px;
+  height: 938px;
+  left: 0px;
+  top: 4982px;
+}
+
+/* Brands */
+
+.brands {
+  position: absolute;
+  width: 1920px;
+  height: 611px;
+  left: 2px;
+  top: 4371px;
+}
+
+/* Experience */
+
+.experience {
+  position: absolute;
+  width: 1920px;
+  height: 210px;
+  left: 0px;
+  top: 4161px;
+}
+
+/* CTA */
+
+.cta {
+  position: absolute;
+  width: 1920px;
+  height: 502px;
+  left: 0px;
+  top: 3659px;
+}
+
+/* Offer */
+
+.offer {
+  position: absolute;
+  width: 1924px;
+  height: 1052px;
+  left: -2px;
+  top: 2607px;
+}
+
+/* Process Section */
+
+.process-section {
+  position: absolute;
+  width: 1087px;
+  height: 527px;
+  left: 320px;
+  top: 1952px;
+}
+
+/* Quote */
+
+.quote {
+  position: absolute;
+  width: 1922px;
+  height: 894px;
+  left: 0px;
+  top: 930px;
+}
+
+/* Header */
+
+.header {
+  position: absolute;
+  width: 1300px;
+  height: 632px;
+  left: 320px;
+  top: 170px;
+}
+.header-text {
+  position: absolute;
+  width: 624px;
+  height: 252px;
+  right: 976px;
+  top: 252px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 84px;
+
+  /* or 131% */
+  letter-spacing: -0.03em;
+
+  /* Black */
+  color: #1e1b1b;
+}
+.header-text h1 {
+  /* Heading (h1) */
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 40px;
+}
+
+.button-text {
+  position: absolute;
+  left: 16.67%;
+  right: 72.76%;
+  top: 6.9%;
+  bottom: 92.27%;
+}
+.primary {
+  background: #ff6433;
+  border-radius: 12px;
+}
+/* Navbar */
+
+.navbar {
+  position: absolute;
+  width: 1920px;
+  height: 90px;
+  left: 0px;
+  top: 0px;
+}
+.logo {
+  position: absolute;
+  left: 16.67%;
+  right: 77.01%;
+  top: 0.4%;
+  bottom: 99.25%;
+
+  background: #1e1b1b;
+}
+.navbar-right {
+  position: absolute;
+  left: 47.71%;
+  right: 16.72%;
+  top: 0.23%;
+  bottom: 99.05%;
+}
+
+.body2 {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  text-decoration: none;
+
+  /* identical to box height, or 175% */
+
+  /* Black */
+  color: #1e1b1b;
+}
+
+.line {
+  position: absolute;
+  left: 72.19%;
+  right: 25.62%;
+  top: 0.31%;
+  bottom: 99.69%;
+
+  opacity: 0.36;
+
+  /* Grey */
+  border: 1px solid #939191;
+  transform: rotate(90deg);
+}
+
+.call {
+  position: absolute;
+  left: 74.38%;
+  right: 24.58%;
+  top: 0.46%;
+  bottom: 99.28%;
+
+  background: #ffffff;
+}
+
+.bg {
+  position: absolute;
+  left: 73.85%;
+  right: 24.06%;
+  top: 0.33%;
+  bottom: 99.15%;
+
+  background: #61c4a1;
+}
