@@ -1,4 +1,4 @@
-# NETLIFY UI project based on REACT + NODEjs
+# NETLIFY project based on REACT + NODEjs
 
     - - - 2 main dependecies
      - - - - frontend
