@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from '../assets/pic/Logo.png';
-import '../index.css';
+import logo from '../../assets/pic/Logo.png';
+import '../../index.css';
+import Header from '../../components/header/Header';
 
 const HomeContext = () => {
   return (
@@ -9,6 +10,7 @@ const HomeContext = () => {
         {' '}
         <img src={logo} alt='logo' className='logo' />
       </div>
+      <Header />
     </div>
   );
 };
