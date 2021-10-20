@@ -1,15 +1,15 @@
 import React from 'react';
 //
-import Nav from '../components/header/Navigation';
-import '../index.css';
+import Nav from './Navigation';
+import '../../index.css';
 // -  assets
-import imageBack from '../assets/pic/bg1.png';
-import ClockIcon from '../assets/icon/Icon10.png';
-import TwentyFourIcon from '../assets/icon/24.png';
-import StarsIcon from '../assets/icon/Stars.png';
-import ServiceIcon from '../assets/backgrounds/BG1.png';
+import imageBack from '../../assets/backgrounds/BG1.png';
+import ClockIcon from '../../assets/icon/Icon10.png';
+import TwentyFourIcon from '../../assets/icon/24.png';
+import StarsIcon from '../../assets/icon/Stars.png';
+import ServiceIcon from '../../assets/backgrounds/BG1.png';
 
-const HomePage = () => {
+const Header = () => {
   return (
     <>
       <div className='container'>
@@ -66,4 +66,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Header;
