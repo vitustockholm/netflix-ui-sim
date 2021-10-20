@@ -1,240 +1,165 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* navigation */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-/* ////////////////// */
-
-/* Footer */
-
-.footer {
+nav {
   position: absolute;
-  width: 1920px;
-  height: 706px;
-  left: 0px;
-  top: 7060px;
-}
-
-/* FAQ */
-
-.faq {
-  position: absolute;
-  width: 1924px;
-  height: 1140px;
-  left: -2px;
-  top: 5920px;
-}
-
-/* Testimonials */
-
-.testimonials {
-  position: absolute;
-  width: 1922px;
-  height: 938px;
-  left: 0px;
-  top: 4982px;
-}
-
-/* Brands */
-
-.brands {
-  position: absolute;
-  width: 1920px;
-  height: 611px;
-  left: 2px;
-  top: 4371px;
-}
-
-/* Experience */
-
-.experience {
-  position: absolute;
-  width: 1920px;
-  height: 210px;
-  left: 0px;
-  top: 4161px;
-}
-
-/* CTA */
-
-.cta {
-  position: absolute;
-  width: 1920px;
-  height: 502px;
-  left: 0px;
-  top: 3659px;
-}
-
-/* Offer */
-
-.offer {
-  position: absolute;
-  width: 1924px;
-  height: 1052px;
-  left: -2px;
-  top: 2607px;
-}
-
-/* Process Section */
-
-.process-section {
-  position: absolute;
-  width: 1087px;
-  height: 527px;
-  left: 320px;
-  top: 1952px;
-}
-
-/* Quote */
-
-.quote {
-  position: absolute;
-  width: 1922px;
-  height: 894px;
-  left: 0px;
-  top: 930px;
-}
-/* -------------------------- */
-
-/* Header */
-
-.header {
-  position: absolute;
-  width: 1300px;
+  width: 100%;
   height: 632px;
-  left: 320px;
-  top: 170px;
-  border: 1px solid black;
-}
-
-image {
-  position: absolute;
-  width: 655px;
-  height: 632px;
-  left: 965px;
-  top: 170px;
-  border: 2px solid red;
-}
-
-/* - - - - HEADER- - - - */
-.header-text {
-  position: absolute;
-  width: 624px;
-  height: 252px;
-  right: 976px;
-  top: 252px;
-  font-family: Manrope;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 64px;
-  line-height: 84px;
-
-  /* or 131% */
-  letter-spacing: -0.03em;
-
-  /* Black */
-  color: #1e1b1b;
-}
-.header-text h1 {
-  /* Heading (h1) */
-}
-.button {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 40px;
+
+  align-items: center;
 }
 
-.button-text {
-  position: absolute;
-  left: 16.67%;
-  right: 72.76%;
-  top: 6.9%;
-  bottom: 92.27%;
+/*   ig nav logo */
+img.logo {
 }
-.primary {
-  background: #ff6433;
-  border-radius: 12px;
-}
-/* Navbar */
 
-.navbar {
-  position: absolute;
-  width: 1920px;
-  height: 90px;
-  left: 0px;
-  top: 0px;
-}
+/*  nav logo */
 .logo {
   position: absolute;
-  left: 16.67%;
-  right: 77.01%;
+  left: 2.17%;
+  /* right: 77.01%; */
+  top: 5.89%;
+}
+
+/*   nav link menu */
+ul {
+  position: absolute;
+  left: 33%;
   top: 0.4%;
   bottom: 99.25%;
-
-  background: #1e1b1b;
-}
-.navbar-right {
-  position: absolute;
-  left: 47.71%;
-  right: 16.72%;
-  top: 0.23%;
-  bottom: 99.05%;
+  display: flex;
+  list-style-type: none;
+  box-sizing: border-box;
 }
 
-.body2 {
+/* off style li from u l li */
+li {
   font-family: Manrope;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 28px;
-  text-decoration: none;
-
   /* identical to box height, or 175% */
 
   /* Black */
+
   color: #1e1b1b;
 }
 
+/*  anchor links navigation  */
+a {
+  color: #1e1b1b;
+  text-decoration: none;
+  padding: 18px;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+a:hover {
+  color: #000000;
+  font-weight: 700;
+}
+/*   - font sizing colorizing anchor links  -   */
+.body2 {
+}
+/*   - LINE - separator img -  */
 .line {
   position: absolute;
-  left: 72.19%;
+  left: 57.19%;
   right: 25.62%;
-  top: 0.31%;
-  bottom: 99.69%;
+  top: 5.89%;
 
-  opacity: 0.36;
+  /* bottom: 99.69%; */
 
+  opacity: 0.26;
+  margin: 9px;
   /* Grey */
+
   border: 1px solid #939191;
   transform: rotate(90deg);
 }
 
-.call {
-  position: absolute;
-  left: 74.38%;
-  right: 24.58%;
-  top: 0.46%;
-  bottom: 99.28%;
-
-  background: #ffffff;
+/*    - div assitance  - */
+.assistance {
+  display: flex;
+  align-items: center;
 }
 
-.bg {
+/*   - grenn bg for call icon   */
+.call {
   position: absolute;
-  left: 73.85%;
+  left: 60.59%;
   right: 24.06%;
-  top: 0.33%;
+  top: 4.59%;
   bottom: 99.15%;
+  display: flex;
 
-  background: #61c4a1;
+  justify-self: center;
+}
+
+/* -white icon on .call background */
+.callIcon {
+  position: absolute;
+  left: 61.1%;
+  right: 23.26%;
+  top: 6%;
+  bottom: 99.28%;
+
+  background-color: transparent;
+}
+
+/* text on <u></u> Road assistance */
+u {
+  position: absolute;
+  left: 65.1%;
+  right: 16.82%;
+  top: 3.93%;
+  bottom: 99.46%;
+
+  /* Caption */
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Black */
+
+  color: #1e1b1b;
+
+  opacity: 0.7;
+}
+
+/*  180026525452 call number-anchor may not fit by style */
+.number {
+  position: absolute;
+  left: 63.97%;
+  right: 16.72%;
+  top: 3.54%;
+  bottom: 99.05%;
+
+  /* Body (01) */
+
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 175%;
+  /* identical to box height, or 31px */
+
+  /* Black */
+
+  color: #1e1b1b;
+}
+/*--------HEADER hompege -----*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 0;
 }
