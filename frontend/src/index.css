@@ -103,6 +103,7 @@ code {
   left: 0px;
   top: 930px;
 }
+/* -------------------------- */
 
 /* Header */
 
@@ -112,7 +113,19 @@ code {
   height: 632px;
   left: 320px;
   top: 170px;
+  border: 1px solid black;
 }
+
+image {
+  position: absolute;
+  width: 655px;
+  height: 632px;
+  left: 965px;
+  top: 170px;
+  border: 2px solid red;
+}
+
+/* - - - - HEADER- - - - */
 .header-text {
   position: absolute;
   width: 624px;
