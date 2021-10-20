@@ -16,11 +16,20 @@ body {
 } /* navigation */
 
 .container {
-  /* width: 100%;
+  width: 100%;
   max-width: 1200px;
-  margin: 0 auto; */
-  padding-top: 20px;
+  margin: 0 auto;
 }
+.container100 {
+  width: 100%;
+  margin: 0;
+}
+.logo {
+  width: 122px;
+  height: 32px;
+  margin-left: 350px;
+}
+
 .linija {
   height: 40px;
   width: 1px;
@@ -29,30 +38,20 @@ body {
   /* ---------  begin  ----*/
 }
 nav {
-  position: absolute;
   width: 100%;
   height: 90px;
   display: flex;
-  margin-top: 20px;
+
   align-items: center;
 }
-/*   ig nav logo */
-img.logo {
-}
 /*  nav logo */
-.logo {
-  position: absolute;
-  /* left: 2.17%; */
-  /* right: 77.01%; */
-  top: 5.89%;
-}
 
 /*   nav link menu */
 ul {
-  position: absolute;
+  position: relative;
   left: 33%;
-  top: 0.4%;
-  bottom: 99.25%;
+  /* top: 0.4%;
+  bottom: 99.25%; */
   display: flex;
   list-style-type: none;
   box-sizing: border-box;
@@ -90,7 +89,6 @@ a:hover {
 }
 /*   - LINE - separator img -  */
 .line {
-  position: absolute;
   left: 57.19%;
   right: 25.62%;
   top: 5.89%;
@@ -116,12 +114,11 @@ a:hover {
 
 /*   - grenn bg for call icon   */
 .call {
-  position: absolute;
-  left: 60.59%;
+  /* position: absolute; */
+  /* left: 60.59%;
   right: 24.06%;
   top: 4.59%;
-  bottom: 99.15%;
-  display: flex;
+  bottom: 99.15%; */
 
   justify-self: center;
 }
@@ -129,17 +126,16 @@ a:hover {
 /* -white icon on .call background */
 .callIcon {
   position: absolute;
-  left: 61.1%;
+  /* left: 61.1%;
   right: 23.26%;
   top: 6%;
-  bottom: 99.28%;
+  bottom: 99.28%; */
 
   background-color: transparent;
 }
 
 /* text on <u></u> Road assistance */
 u {
-  position: absolute;
   left: 65.1%;
   right: 16.82%;
   top: 3.93%;
@@ -163,7 +159,6 @@ u {
 
 /*  180026525452 call number-anchor may not fit by style */
 .number {
-  position: absolute;
   left: 63.97%;
   right: 16.72%;
   top: 3.54%;
@@ -193,11 +188,8 @@ header {
   margin: 0 auto;
   padding-top: 140px;
 }
-.container {
-}
-.container-header {
-  position: absolute;
 
+.container-header {
   /* width: 1300px; */
 
   height: 632px;
@@ -244,11 +236,10 @@ h1 {
 .serviceicon {
   width: 290px;
   height: 190px;
-  position: relative;
+
   left: 6.15%;
 }
 .imageBack {
-  position: absolute;
   width: 605px;
   height: 632px;
 

@@ -39,8 +39,9 @@ const Navigation = () => {
           </li>
         </ul>
         <img src={line} alt='line' className='line' />
+
         <div className='assistance'>
-          <img src={callLogo} alt='call' className='call' />{' '}
+          <img src={callLogo} alt='call' className='call' />
           <img src={callLogoCall} alt='callCall' className='callIcon' />
           <u>Road Assistance</u>
           <a href='/call' className='number'>
