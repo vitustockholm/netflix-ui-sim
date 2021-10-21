@@ -9,15 +9,17 @@ import ServiceContext from '../components/main/ServiceContext';
 
 const HomePage = () => {
   return (
-    <div className='container'>
-      <HomeContext />
-      <QuoteContext />
-      <Service />
-      <ServiceContext />
-      <OfferContext />
-      <CallToContext />
-      <ExperienceContext />
-    </div>
+    <>
+      <div className='container'>
+        <HomeContext />
+        <QuoteContext />
+        <Service />
+        <ServiceContext />
+        <OfferContext />
+        <CallToContext />
+        <ExperienceContext />
+      </div>
+    </>
   );
 };
 

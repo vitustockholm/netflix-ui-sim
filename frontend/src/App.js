@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 //components
-import Header from './components/header/Header';
+// import Header from './components/header/Header';
+import NavHeader from './components/header/Navigation';
 // pages
 import HomePage from './pages/HomePage';
 import Services from './pages/Services';
@@ -17,8 +18,7 @@ function App() {
     <>
       <div className='app'>
         <Router>
-          <Header />
-          {/* Contains Navigation inside */}
+          <NavHeader />
 
           <Switch>
             <Route exact path='/' component={HomePage} />

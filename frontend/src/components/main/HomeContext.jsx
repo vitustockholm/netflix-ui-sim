@@ -4,51 +4,48 @@ import '../../index.css';
 
 // // -  assets
 import imageBack from '../../assets/pic/bg1.png';
-import ClockIcon from '../../assets/icon/Icon10.png';
-import TwentyFourIcon from '../../assets/icon/24.png';
+import ClockIcon from '../../assets/icon/clock.png';
+import TwentyFourIcon from '../../assets/icon/quicservice.png';
 import StarsIcon from '../../assets/icon/Stars.png';
-import ServiceIcon from '../../assets/backgrounds/BG1.png';
 
 const HomeContext = () => {
   return (
     <>
-      <div className=''>
-        <header>
-          <div className='header-text'>
-            <h1>Get your vehicle service done online at one place</h1>
-            <div className='primary header-button'>
-              <p className='button-text'>Book servece</p>
-            </div>
-            <div className='home-header-clock-label'>
-              <img src={ClockIcon} alt='' />
-              <div className='helper-wrapper'>
-                <p className='open-grey'>We are open</p>
-                <p className='monday-dark'>
-                  Monday to Friday 9:00 AM to 10:00 AM
-                </p>
-              </div>
+      {/* <div className='container-header'> */}
+      <main className='main main--homepage'>
+        <div className='main__header'>
+          <h1 className='main__title'>
+            Get your vehicle service done online at one place
+          </h1>
+          <a href='/' className='btn btn--primary'>
+            Book servece
+          </a>
+          <div className='main__workinghours'>
+            <img src={ClockIcon} alt='' className='clockicon' />{' '}
+            <div className='main__helper'>
+              <p className='main__intro'>We are open</p>
+              <p className='main__intro-exact'>
+                Monday to Friday 9:00 AM to 10:00 AM
+              </p>{' '}
             </div>
           </div>
+        </div>
+        <div className='main__header-image'>
+          <img src={imageBack} alt='imageBack' className='imageback-logo' />
 
-          <div className='header-image'>
-            <img src={ServiceIcon} alt='' className='serviceicon' />
-            <img src={imageBack} alt='imageBack' />
-            <div className='home-header__badge top-left'>
-              <img src={TwentyFourIcon} alt='' />
-              Quick service
+          <img src={TwentyFourIcon} alt='' />
+
+          <div className='main__rating'>
+            <div>
+              <p className='main__intro'>4.5/5</p>
+              <p className='main__intro'>Rating</p>
             </div>
-            <div className='home-header__badge bottom-right'>
-              <div>
-                <p className='u1 text-bold'>4.5/5</p>
-                <p className='u2'>Rating</p>
-              </div>
-              <div className='star-row'>
-                <img src={StarsIcon} alt='rating-stars-set' />
-              </div>
+            <div className='star-row'>
+              <img src={StarsIcon} alt='rating-stars-set' />
             </div>
           </div>
-        </header>
-      </div>
+        </div>
+      </main>
     </>
   );
 };
