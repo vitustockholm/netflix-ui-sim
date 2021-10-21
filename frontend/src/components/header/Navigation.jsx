@@ -1,54 +1,59 @@
 import React from 'react';
 import '../../index.css';
-// import logo from '../assets/pic/Logo.png';
-import callLogo from '../../assets/pic/BG.png';
+import Logo from '../../assets/pic/Logo.png';
+
 import callLogoCall from '../../assets/icon/Call.png';
-import line from '../../assets/pic/Line.png';
 
 const Navigation = () => {
   return (
     <>
-      {/* <div className='wrapper'> */}
-      <nav>
-        {/* <img src={logo} alt='logo' className='logo' /> */}
-        <ul className='navbar-right'>
-          <li>
-            <a href='/' className='body2'>
-              Home
-            </a>
-          </li>
-          <li>
-            <a href='/' className='body2'>
-              About us
-            </a>
-          </li>
-          <li>
-            <a href='/' className='body2'>
-              Services
-            </a>
-          </li>
-          <li>
-            <a href='/' className='body2'>
-              Blog
-            </a>
-          </li>
-          <li>
-            <a href='/' className='body2'>
-              Contact
-            </a>
-          </li>
-        </ul>
-        <img src={line} alt='line' className='line' />
+      <header>
+        <img src={Logo} alt='logo' className='logo' />
+        <nav className='nav'>
+          <ul className='nav__list'>
+            <li className='nav__list-item'>
+              <a href='/' className='nav__link'>
+                Home
+              </a>
+            </li>
+            <li className='nav__list-item'>
+              <a href='/' className='nav__link'>
+                About us
+              </a>
+            </li>
+            <li className='nav__list-item'>
+              <a href='/' className='nav__link'>
+                Services
+              </a>
+            </li>
+            <li className='nav__list-item'>
+              <a href='/' className='nav__link'>
+                Blog
+              </a>
+            </li>
+            <li className='nav__list-item'>
+              <a href='/' className='nav__link'>
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        {/* <img src={line} alt='line' className='linija' /> */}
+
         <div className='assistance'>
-          <img src={callLogo} alt='call' className='call' />{' '}
-          <img src={callLogoCall} alt='callCall' className='callIcon' />
-          <u>Road Assistance</u>
-          <a href='/call' className='number'>
-            180026525452
-          </a>
+          <div className='assistance__icon'>
+            <img src={callLogoCall} alt='callCall' className='callIcon logo' />
+          </div>
+
+          <span className='assistance__info'>Road Assistance</span>
+          <span className='assistance__info'>
+            <a href='/call' className='number'>
+              180026525452
+            </a>
+          </span>
         </div>
-      </nav>
-      {/* </div> */}
+      </header>
     </>
   );
 };
